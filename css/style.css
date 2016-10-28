@@ -1,0 +1,18 @@
+
+.img-logo {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+/*  border-radius: 50%;*/
+}
+.moving-container {
+  height: 100px;
+}
+.moving {
+  position: absolute;
+  left: 0px;
+  transition: all 3s ease;
+}
+.moving-container:hover .moving {
+  left: calc(100vw - 100px);
+}
